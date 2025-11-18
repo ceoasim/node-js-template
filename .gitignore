@@ -1,0 +1,30 @@
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+/src/views/index.html
+/temp/*sitemap.xml
+
+# misc
+.DS_Store
+.env.development.local
+.env.test.local
+.env.production.local
+
+# old
+/admin2
+/client2
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.migrate
+newrelic_agent.log
+config.bat
